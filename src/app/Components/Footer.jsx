@@ -7,37 +7,29 @@ const Footer = () => {
         <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
           <div className="flex flex-col items-start justify-between pt-16 pb-6 gap-y-12 lg:flex-row lg:items-center lg:py-16">
             <div>
-              <div className="flex items-center text-black">
-                <div>
-                  <p className="font-semibold leading-6 text-black uppercase">Unwrapped</p>
-                  <p className="mt-1 text-sm">Unwrapped your mind.</p>
-                </div>
-              </div>
+              <div aria-hidden="true" className="flex space-x-1">
+                    <div aria-hidden="true" class="flex space-x-1">
+                      <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-gray-200"></div>
+                      <div class="h-6 w-2 bg-blue-400 dark:bg-primaryLight"></div>
+                    </div>
+                    <span class="text-base font-bold text-gray-600 dark:text-white">
+                      Quantafile
+                    </span>{" "}
+                  </div>
               <nav className="flex gap-8 mt-11">
                 <a
                   className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
                   href="#_"
                 >
-                  <span className="relative z-10">Alpine</span>
+                  <span className="relative z-10">Contact</span>
                 </a>
                 <a
                   className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
                   href="#_"
                 >
-                  <span className="relative z-10">Nextjs</span>
+                  <span className="relative z-10">About</span>
                 </a>
-                <a
-                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="#_"
-                >
-                  <span className="relative z-10">Tailwind</span>
-                </a>
-                <a
-                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="#_"
-                >
-                  <span className="relative z-10">FAQs</span>
-                </a>
+                
               </nav>
             </div>
             <div className="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
