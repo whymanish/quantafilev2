@@ -1,77 +1,95 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
     <div>
-      <footer class="w-full bg-gray-100 dark:bg-gray-900 py-16">
-        <div class="md:px-12 lg:px-28">
-          <div class="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
-            <div aria-hidden="true" className="flex justify-center space-x-1">
-                <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-gray-200"></div>
-                <div class="h-6 w-2 bg-blue-400 dark:bg-primaryLight"></div>
-              <span class="text-base font-bold text-gray-600 dark:text-white">
-                Quantafile
-              </span>{" "}
-            </div>{" "}
-            <ul
-              role="list"
-              class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
-            >
-              <li role="listitem">
-                <a href="#" class="hover:text-primary">
-                  Home
-                </a>
-              </li>
-              <li role="listitem">
-                <a href="#" class="hover:text-primary">
-                  Features
-                </a>
-              </li>
-              <li role="listitem">
-                <a href="#" class="hover:text-primary">
-                  Get started
-                </a>
-              </li>
-              <li role="listitem">
-                <a href="#" class="hover:text-primary">
-                  About us
-                </a>
-              </li>
-            </ul>
-            <div class="m-auto flex w-max items-center justify-between space-x-4">
-              <a href="tel:+243996660436" aria-label="call">
-              <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            fill="currentColor"
-            class="bi bi-github"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-            />
-          </svg>
-              </a>
-              <a href="mailto:hello@mail.com" aria-label="send mail">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="m-auto w-5"
-                  viewBox="0 0 16 16"
+      <footer className="border-t border-gray-200">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
+          <div className="flex flex-col items-start justify-between pt-16 pb-6 gap-y-12 lg:flex-row lg:items-center lg:py-16">
+            <div>
+              <div className="flex items-center text-black">
+                <div>
+                  <p className="font-semibold leading-6 text-black uppercase">Unwrapped</p>
+                  <p className="mt-1 text-sm">Unwrapped your mind.</p>
+                </div>
+              </div>
+              <nav className="flex gap-8 mt-11">
+                <a
+                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                  href="#_"
                 >
-                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"></path>
+                  <span className="relative z-10">Alpine</span>
+                </a>
+                <a
+                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                  href="#_"
+                >
+                  <span className="relative z-10">Nextjs</span>
+                </a>
+                <a
+                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                  href="#_"
+                >
+                  <span className="relative z-10">Tailwind</span>
+                </a>
+                <a
+                  className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                  href="#_"
+                >
+                  <span className="relative z-10">FAQs</span>
+                </a>
+              </nav>
+            </div>
+            <div className="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
+              <div className="relative flex items-center justify-center flex-none w-24 h-24 bg-black rounded-xl">
+                <svg className="w-5 h-5" viewBox="0 0 232 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M166.524 51.4683L116.367 101.625L65.5235 51.4683L116.367 0.62434L166.524 51.4683ZM231.11 116.054L180.953 166.898L130.796 116.054L180.953 65.8969L231.11 116.054ZM101.939 116.054L51.0948 166.898L0.250934 116.054L51.0948 65.8969L101.939 116.054ZM166.524 181.326L116.367 231.483L65.5235 181.326L116.367 130.482L166.524 181.326Z" fill="#0c0c0c"></path>
                 </svg>
-              </a>
-             
-             
+              </div>
+              <div className="ml-8 lg:w-64">
+                <p className="text-base font-semibold text-black">
+                  <a href="#_">
+                    <span className="absolute inset-0 sm:rounded-2xl"></span>Stay updated
+                  </a>
+                </p>
+                <p className="mt-1 text-sm text-gray-500 hover:text-blue-600">
+                  Follow us on social media for news and updates
+                </p>
+              </div>
             </div>
-            <div class="text-center">
-              <span class="text-sm tracking-wide">
-                Copyright © Quantafile <span id="year"></span> | All right
-                reserved
-              </span>
+          </div>
+          <div className="flex flex-col items-center pt-8 pb-12 border-t border-gray-200 md:flex-row-reverse md:justify-between md:pt-6">
+            <div className="max-w-xl">
+              <form className="flex flex-col items-center justify-center max-w-sm mx-auto" action="">
+                <div className="flex flex-col w-full gap-1 mt-3 sm:flex-row">
+                  <input
+                    name="email"
+                    type="email"
+                    className="block w-full px-4 py-2 text-sm font-medium text-gray-800 placeholder-gray-400 bg-white border border-gray-300 rounded-full font-spline focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600/50 disabled:opacity-50"
+                    placeholder="Enter your email..."
+                    required
+                  />
+                  <button
+                    type="button"
+                    className="items-center inline-flex justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                  >
+                    <div style={{ position: 'relative' }}>Subscribe</div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="w-4 h-auto ml-2"
+                    >
+                      <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd"></path>
+                    </svg>
+                  </button>
+                </div>
+              </form>
             </div>
+            <p className="mt-6 text-sm text-gray-500 md:mt-0">
+              © Copyright 2022 All rights reserved.
+            </p>
           </div>
         </div>
       </footer>

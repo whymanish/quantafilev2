@@ -103,7 +103,7 @@ const Navbar = () => {
                 <div class="w-full lg:pl-2 space-y-2 border-teal-200 lg:w-auto lg:space-y-0 sm:w-max lg:border-l">
                             <button type="button" title="Start buying" class="w-full py-3 px-6 text-center rounded-full transition dark:active:bg-teal-900 dark:focus:bg-gray-800 active:bg-teal-200 focus:bg-teal-100 sm:w-max">
                                 <span class="block text-teal-800 dark:text-teal-300 font-semibold text-sm">
-                                   Sign in
+                                   Sign i
                                 </span>
                             </button>
                             <button type="button" title="Start buying" class="w-full py-3 px-6 text-center rounded-full transition bg-blue-500 hover:bg-blue-600 active:bg-teal-400 focus:bg-teal-300 sm:w-max">
