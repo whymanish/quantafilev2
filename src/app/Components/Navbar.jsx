@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -16,33 +15,41 @@ const Navbar = () => {
           type="checkbox"
           name="hbr"
           id="hbr"
-          className="hbr peer"
-          hidden
+          className="hbr peer absolute -left-full" // Set off-screen to hide without affecting the layout
           aria-hidden="true"
           checked={isMobileMenuOpen}
+          onChange={toggleMobileMenu}
         />
-        <nav className={`fixed z-20 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur navbar shadow-md shadow-gray-600/5 ${isMobileMenuOpen ? 'peer-checked:navbar-active' : ''} md:relative md:bg-transparent dark:shadow-none`}>
-          <div className="xl:container m-auto px-6 md:px-12">
-            <div className="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0">
-              <div className="w-full flex justify-between lg:w-auto">
+        <nav className={`fixed z-20  w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur navbar shadow-md shadow-gray-600/5 ${isMobileMenuOpen ? 'peer-checked:navbar-active' : ''} md:relative md:bg-transparent dark:shadow-none`}>
+          <div className="xl:container m-auto px-6">
+            <div className="flex flex-wrap justify-center items-center  gap-6 md:py-3 md:gap-0">
+              <div className="w-full flex justify-between items-center lg:w-auto lg:pl-4">
                 <a href="#" aria-label="logo" className="flex space-x-2 items-center">
                   <div aria-hidden="true" className="flex space-x-1">
-                    <img src="navlogo.png" alt="logo" className="w-16 h-4" />
+                    <img src="navlogo.png" alt="logo" className="w-20 h-4" />
                   </div>
                 </a>
                 <label
                   htmlFor="hbr"
                   className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden"
-                  onClick={toggleMobileMenu}
                 >
-                  <div
-                    aria-hidden="true"
-                    className="m-auto h-0.5 w-6 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"
-                  ></div>
-                  <div
-                    aria-hidden="true"
-                    className="m-auto mt-2 h-0.5 w-6 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"
-                  ></div>
+                  {isMobileMenuOpen ? (
+                    <div
+                      aria-hidden="true"
+                      className="m-auto h-0.5 w-6 rounded bg-gray-900 dark:bg-gray-300 transform -rotate-45 translate-x-1 translate-y-1 transition duration-300"
+                    ></div>
+                  ) : (
+                    <>
+                      <div
+                        aria-hidden="true"
+                        className="m-auto h-0.5 w-6 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"
+                      ></div>
+                      <div
+                        aria-hidden="true"
+                        className="m-auto mt-2 h-0.5 w-6 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"
+                      ></div>
+                    </>
+                  )}
                 </label>
               </div>
               <div className={`navmenu ${isMobileMenuOpen ? 'block' : 'hidden'} w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-gray-800 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0`}>
@@ -88,7 +95,7 @@ const Navbar = () => {
                     href="#"
                     className="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary dark:before:bg-primaryLight before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95"
                   >
-                    <span className="relative text-sm font-semibold text-white dark:text-gray-900">
+                    <span className="relative text-sm font-semibold text-gray-600 dark:text-gray-900">
                       Login
                     </span>
                   </a>
