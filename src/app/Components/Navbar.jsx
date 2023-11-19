@@ -26,8 +26,11 @@ const Navbar = () => {
               <div className="w-full flex justify-between items-center lg:w-auto lg:pl-4">
                 <a href="#" aria-label="logo" className="flex space-x-2 items-center">
                   <div aria-hidden="true" className="flex space-x-1">
-                    <img src="navlogo.png" alt="logo" className="w-20 h-4" />
-                  </div>
+                    <div aria-hidden="true" class="flex space-x-1">
+                      <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-gray-200"></div>
+                      <div class="h-6 w-2 bg-blue-400 dark:bg-primaryLight"></div>
+                    </div>
+                    <span class="text-base font-bold text-gray-600 dark:text-white">Quantafile</span>                  </div>
                 </a>
                 <label
                   htmlFor="hbr"
