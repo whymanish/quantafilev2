@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Cards from './Components/Cards'
-import HeroDashboard from './Components/HeroDashboard';
+import Hero from './Components/Hero';
 
 const page = () => {
   return (
     <div>
       <Navbar/>
-      <HeroDashboard/>
+      <Hero/>
       <Cards/>
       <Footer/>
     </div>
