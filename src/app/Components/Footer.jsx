@@ -80,7 +80,7 @@ const Footer = () => {
               </form>
             </div>
             <p className="mt-6 text-sm text-gray-500 md:mt-0">
-              © Copyright 2022 All rights reserved.
+              © Copyright 2023 All rights reserved.
             </p>
           </div>
         </div>
