@@ -4,10 +4,10 @@ const Cards = () => {
   return (
     <div>
 
-      <div class="px-3 mb-10 mt-28">
+      <div class="px-3  mb-10 mt-2 lg:mt-16">
         <div class=" text-gray-600 ">
           <div class="mb-12 space-y-2 text-center">
-            <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Services Offered</h2>
+            <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">Services Offered</h2>
             <p class="lg:mx-auto lg:w-7/12 text-gray-600 dark:text-gray-300">
               Aajao Service deta hu is a leading provider of agricultural services in Nigeria. We offer a wide range of agricultural services in Nigeria.
             </p>
@@ -24,7 +24,7 @@ const Cards = () => {
                         <span class="">Presentations</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
-                      <button className='rounded-full mt-6 w-8 h-8 bg-blue-500'>
+                      <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
                       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                       </button>
                     </div>
@@ -40,7 +40,7 @@ const Cards = () => {
                         <span class="">WebApp Development</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
-                      <button className='rounded-full mt-6 w-8 h-8 bg-blue-500'>
+                      <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
                       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                       </button>
                     </div>
@@ -57,7 +57,7 @@ const Cards = () => {
                         <span class="">UI/UX Design</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
-                      <button className='rounded-full mt-6 w-8 h-8 bg-blue-500'>
+                      <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
                       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                       </button>
                     </div>
@@ -74,7 +74,7 @@ const Cards = () => {
                         <span class="">College Projects</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
-                      <button className='rounded-full mt-6 w-8 h-8 bg-blue-500'>
+                      <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
                       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                       </button>
                     </div>
