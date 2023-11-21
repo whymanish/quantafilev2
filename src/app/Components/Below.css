@@ -1,0 +1,17 @@
+@keyframes colorTravel {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  .grid {
+    background: linear-gradient(90deg, #4fd1c5, #ff7e5f, #feb47b, #262261);
+    background-size: 400% 400%;
+    animation: colorTravel 10s ease infinite;
+  }
+  
+  /* Add your existing styles here */
+  

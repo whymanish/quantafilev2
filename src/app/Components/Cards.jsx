@@ -19,7 +19,7 @@ const Cards = () => {
                     <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-1.jpg" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
-                        <span class="">Presentations</span>
+                       <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">Presentations</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
                       <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
@@ -35,7 +35,7 @@ const Cards = () => {
                     <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-1.jpg" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
-                        <span class="">WebApp Development</span>
+                      <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">WebApp Development</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
                       <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
@@ -52,7 +52,7 @@ const Cards = () => {
                     <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-4.jpg" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
-                        <span class="">UI/UX Design</span>
+                      <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">UI/UX Design</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
                       <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
@@ -69,7 +69,7 @@ const Cards = () => {
                     <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-2.jpg" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
-                        <span class="">College Projects</span>
+                      <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">College Projects</span>
                       </h4>
                       <p class="mt-4 text-sm font-normal text-gray-500 leading-relax">Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you.</p>
                       <button className='rounded-full mt-6 w-8 h-8 bg-gray-800'>
