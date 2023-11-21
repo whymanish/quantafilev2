@@ -4,7 +4,7 @@ const Cards = () => {
   return (
     <div>
 
-      <div class="px-3  mb-10 mt-2 lg:mt-16">
+      <div class="px-3 mt-10 mb-10 ">
         <div class=" text-gray-600 ">
           <div class="mb-12 space-y-2 text-center">
             <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">Services Offered</h2>
