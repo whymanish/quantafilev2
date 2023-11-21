@@ -3,6 +3,3 @@
 @tailwind utilities;
 
 
-.nv{
-    backdrop-filter: blur(10px);
-}

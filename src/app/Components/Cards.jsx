@@ -8,9 +8,7 @@ const Cards = () => {
         <div class=" text-gray-600 ">
           <div class="mb-12 space-y-2 text-center">
             <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">Services Offered</h2>
-            <p class="lg:mx-auto lg:w-7/12 text-gray-600 dark:text-gray-300">
-              Aajao Service deta hu is a leading provider of agricultural services in Nigeria. We offer a wide range of agricultural services in Nigeria.
-            </p>
+            
           </div>
           <section class="">
             <div class="flex justify-center flex-wrap ">
