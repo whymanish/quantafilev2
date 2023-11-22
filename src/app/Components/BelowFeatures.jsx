@@ -5,7 +5,7 @@ const BelowFeatures = () => {
         <div>
 
 
-            <div class="py-16">
+            <div class="py-16 ">
                 <div class=" max-w-6xl mx-auto px-6 text-gray-500 md:px-12">
                     <div class="mb-12 space-y-2 text-center">
                         <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">How it works?</h2>
@@ -26,7 +26,7 @@ const BelowFeatures = () => {
 
                                 <div class="space-y-2">
                                     <h5
-                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-400"
+                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-600"
                                     >
                                         Register
                                     </h5>
@@ -53,7 +53,7 @@ const BelowFeatures = () => {
 
                                 <div class="space-y-2">
                                 <h5
-                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-400"
+                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-600"
                                     >
                                         Send Reuirements
                                     </h5>
@@ -80,7 +80,7 @@ const BelowFeatures = () => {
 
                                 <div class="space-y-2">
                                 <h5
-                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-400"
+                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-600"
                                     >
                                        Production
                                     </h5>
@@ -111,7 +111,7 @@ const BelowFeatures = () => {
 
                                 <div class="space-y-2">
                                 <h5
-                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-400"
+                                        class="text-xl font-bold  transition duration-300 group-hover:translate-x-0 group-hover:text-[#0095ff] text-gray-600"
                                     >
                                        Handover
                                     </h5>

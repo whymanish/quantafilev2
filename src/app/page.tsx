@@ -6,14 +6,22 @@ import Hero from './Components/Hero';
 import Role from './Components/Role';
 import Features from './Components/Features';
 import BelowFeatures from './Components/BelowFeatures';
+import CTA from './Components/CTA';
+import Reviews from './Components/Reviews';
 const page = () => {
   return (
     <div>
       <Navbar/>
       <Hero/>
+      
       <Cards/>
-      <Features/>
       <BelowFeatures/>
+    
+      <Features/>
+      <CTA/>
+      <Reviews/>
+     
+     
       <Footer/>
     </div>
   )

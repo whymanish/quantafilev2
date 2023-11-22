@@ -46,7 +46,7 @@ const Features = () => {
               </div>
             </div>
             <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
-              <img class="object-cover rounded-xl  object-center w-full h-full mx-auto bg-gray-300 border lg:ml-auto" alt="hero" src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+              <img class="object-cover rounded-xl  object-center w-full h-full mx-auto bg-gray-300 border lg:ml-auto" alt="hero" src="https://images.unsplash.com/photo-1626908013351-800ddd734b8a?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </div>
             <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
               <div class="mx-auto lg:max-w-7xl">
