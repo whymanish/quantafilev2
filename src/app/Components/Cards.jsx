@@ -16,7 +16,7 @@ const Cards = () => {
               <a href="">
                 <div class="flex w-full">
                   <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-1.jpg" alt="blog" />
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
                        <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">Presentations</span>
@@ -32,7 +32,7 @@ const Cards = () => {
               <a href="">
                 <div class="flex w-full">
                   <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-1.jpg" alt="blog" />
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
                       <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">WebApp Development</span>
@@ -49,7 +49,7 @@ const Cards = () => {
               <a href="">
                 <div class="flex w-full">
                   <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-4.jpg" alt="blog" />
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
                       <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">UI/UX Design</span>
@@ -66,7 +66,7 @@ const Cards = () => {
               <a href="">
                 <div class="flex w-full">
                   <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedblocks.dev/assets/images/placeholders/neon-2.jpg" alt="blog" />
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blog" />
                     <div class="px-6 py-8">
                       <h4 class="mt-4 text-xl font-semibold text-neutral-600">
                       <span className='text-4xl relative  -top-[5px] font-extrabold text-blue-500'>.</span><span class="ml-2">College Projects</span>
