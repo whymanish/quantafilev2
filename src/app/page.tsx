@@ -8,16 +8,17 @@ import Features from './Components/Features';
 import BelowFeatures from './Components/BelowFeatures';
 import CTA from './Components/CTA';
 import Reviews from './Components/Reviews';
+import FTP from './Components/FTP';
 const page = () => {
   return (
     <div>
       <Navbar/>
       <Hero/>
       
-      <Cards/>
+      <FTP/>
       <BelowFeatures/>
     
-      <Features/>
+      
       <CTA/>
       <Reviews/>
      

@@ -5,9 +5,9 @@ const Features = () => {
     <div>
 
       <section>
-        <div class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
+        <div class="relative items-center w-full px-5 py-16 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div class="mb-12 space-y-2 text-center">
-            <h2 class="text-3xl font-bold text-gray-700 md:text-4xl dark:text-white">Features Offered</h2>
+            <h2 class="text-3xl font-bold  text-gray-700 md:text-4xl dark:text-white">Features Offered</h2>
 
           </div>
           <div class="grid items-center grid-cols-1 gap-6 text-left lg:gap-24 lg:grid-cols-3">
