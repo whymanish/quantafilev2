@@ -3,10 +3,10 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className=''>
-      <div class="bg-black">
+      <div class="bg-black  ">
 
 
-        <section class=" ">
+        <section class="">
           <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid h-screen items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
 
               <div>
-                <img class="w-full" src="blackhero.png" alt="" />
+                <img class="w-full " src="blackhero.png" alt="" />
               </div>
             </div>
           </div>
