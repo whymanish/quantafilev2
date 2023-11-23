@@ -23,7 +23,6 @@ const page = () => {
       
       <CTA/>
       <Reviews/>
-     
     
       <Footer/>
     </div>

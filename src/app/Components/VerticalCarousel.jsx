@@ -1,120 +1,168 @@
-import React, { useState, useEffect } from 'react';
+import React from "react";
 
-const FTP = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY;
-    // You can adjust the threshold as needed
-    const threshold = 100;
-
-    if (scrollPosition > threshold) {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
-  };
-
-  useEffect(() => {
-    // Add scroll event listener when the component mounts
-    window.addEventListener('scroll', handleScroll);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); // Empty dependency array means this effect runs once when the component mounts
-
-  return (
-    <div
-      className={`flex items-center my-24 justify-center ${
-        isScrolled ? 'fade-in' : 'fade-out'
-      }`}
-    >
-     <div className='max-w-6xl  mx-auto '>
-                <div className='flex  justify-center'>
-                    <div className='grid    gap-16 lg:grid-cols-2'>
-
-
-                        <div className='mt-1 lg:mt-28   flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>PRESENTATION</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
+const VerticalCarousel = () => {
+    return (
+        <div>
+            <section>
+                <div class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
+                    <div class="relative flex-col items-start m-auto align-middle">
+                        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                            <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
+                                <div class="max-w-xl text-center lg:text-left">
+                                    <div>
+                                        <p class="text-4xl lg:text-5xl font-extrabold tracking-tight text-black ">
+                                            UI/UX DEVELOPMENT
+                                        </p>
+                                        <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
+                                            Use this paragraph to share information about your company
+                                            or products. Make it engaging and interesting, and
+                                            showcase your brand's personality. Thanks for visiting our
+                                            website!
+                                        </p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
+                                        <a
+                                            href="#_"
+                                            class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                                        >
+                                            Button
+                                        </a>
+                                        <a
+                                            href="#_"
+                                            class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                                        >
+                                            Learn more &nbsp; →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
+                                <img
+                                    class="object-cover object-center h-full rounded-2xl w-full mx-auto bg-gray-300 border lg:ml-auto"
+                                    alt="hero"
+                                    src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                />
                             </div>
                         </div>
-                        <div className='flex px-6 justify-center'>
-                            <div className='bg-[#5055f2]  w-full h-[50vh] rounded-3xl'>
-                                <img className='h-full rounded-3xl ' src='https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
+                        <div class="grid mt-20 grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                            <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
+                                <img
+                                    class="object-cover object-center h-full rounded-2xl w-full mx-auto bg-gray-300 border lg:ml-auto"
+                                    alt="hero"
+                                    src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                />
+                            </div>
+                            <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
+                                <div class="max-w-xl text-center lg:text-left">
+                                    <div>
+                                        <p class=" text-4xl lg:text-5xl font-extrabold tracking-tight text-black ">
+                                            UI/UX DEVELOPMENT
+                                        </p>
+                                        <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
+                                            Use this paragraph to share information about your company
+                                            or products. Make it engaging and interesting, and
+                                            showcase your brand's personality. Thanks for visiting our
+                                            website!
+                                        </p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
+                                        <a
+                                            href="#_"
+                                            class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                                        >
+                                            Button
+                                        </a>
+                                        <a
+                                            href="#_"
+                                            class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                                        >
+                                            Learn more &nbsp; →
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-
-
-                        <div className='mt-1 block lg:hidden   flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>WEB DEVELOPMENT</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
+                        <div class="grid mt-20 grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                            <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
+                                <div class="max-w-xl text-center lg:text-left">
+                                    <div>
+                                        <p class="text-4xl lg:text-5xl font-extrabold tracking-tight text-black ">
+                                            UI/UX DEVELOPMENT
+                                        </p>
+                                        <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
+                                            Use this paragraph to share information about your company
+                                            or products. Make it engaging and interesting, and
+                                            showcase your brand's personality. Thanks for visiting our
+                                            website!
+                                        </p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
+                                        <a
+                                            href="#_"
+                                            class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                                        >
+                                            Button
+                                        </a>
+                                        <a
+                                            href="#_"
+                                            class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                                        >
+                                            Learn more &nbsp; →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
+                                <img
+                                    class="object-cover object-center h-full rounded-2xl w-full mx-auto bg-gray-300 border lg:ml-auto"
+                                    alt="hero"
+                                    src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                />
                             </div>
                         </div>
-                        <div className='flex px-6 justify-center'>
-                            <div className='bg-[#5055f2] w-full h-[50vh] rounded-3xl'>
-                                <img className='h-full w-full rounded-3xl ' src='https://images.unsplash.com/photo-1593720213428-28a5b9e94613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
-
+                        <div class="grid mt-20 grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                            <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
+                                <img
+                                    class="object-cover object-center h-full rounded-2xl w-full mx-auto bg-gray-300 border lg:ml-auto"
+                                    alt="hero"
+                                    src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                />
+                            </div>
+                            <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
+                                <div class="max-w-xl text-center lg:text-left">
+                                    <div>
+                                        <p class=" text-4xl lg:text-5xl font-extrabold tracking-tight text-black ">
+                                            UI/UX DEVELOPMENT
+                                        </p>
+                                        <p class="max-w-xl mt-4 text-base tracking-tight text-gray-600">
+                                            Use this paragraph to share information about your company
+                                            or products. Make it engaging and interesting, and
+                                            showcase your brand's personality. Thanks for visiting our
+                                            website!
+                                        </p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
+                                        <a
+                                            href="#_"
+                                            class="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                                        >
+                                            Button
+                                        </a>
+                                        <a
+                                            href="#_"
+                                            class="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                                        >
+                                            Learn more &nbsp; →
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className='mt-28 hidden lg:block   flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>WEB DEVELOPMENT</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
-                            </div>
-                        </div>
-                        <div className='mt-1 lg:mt-28 flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>UI/UX DEVELOPMENT</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
-                            </div>
-                        </div>
-                        <div className='flex px-6 justify-center'>
-                            <div className='bg-[#5055f2] w-full h-[50vh] rounded-3xl'>
-                                <img className='h-full w-full rounded-3xl ' src='https://images.unsplash.com/photo-1576153192396-180ecef2a715?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
-
-                            </div>                        </div>
-                            <div className='mt-1 block lg:hidden   flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>COLLEGE PROJECTS</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
-                            </div>
-                        </div>
-                        <div className='flex px-6 justify-center'>
-                            <div className='bg-[#5055f2] w-full h-[50vh] rounded-3xl'>
-                                <img className='h-full w-full rounded-3xl ' src='https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='' />
-
-                            </div>
-                        </div>
-                        <div className='mt-28 hidden lg:block   flex-wrap justify-center '>
-                            <h1 className='lg:text-5xl text-center  text-4xl font-extrabold'>COLLEGE PROJECTS</h1>
-                            <p className='py-4 px-6 lg:px-0  text-center'>Sending and receiving money is just as easy as texting a friend.</p>
-                            <div className='flex justify-center'>
-                                <button className='px-8   bg-black py-2 rounded-3xl font-medium text-white'>Check</button>
-
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
-    </div>
-  );
+            </section>
+        </div>
+    );
 };
 
-export default FTP;
+export default VerticalCarousel;
