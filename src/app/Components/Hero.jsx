@@ -3,16 +3,16 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className=''>
-      <div class="bg-white">
+      <div class="bg-black">
 
 
-        <section class="bg-white  bg-opacity-30 ">
+        <section class=" ">
           <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid h-screen items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
                 <p class="text-base mt-16 lg:mt-0 font-semibold tracking-wider text-blue-600 uppercase">A social media for learners</p>
-                <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Connect & learn from Quantafile</h1>
-                <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">Grow your career fast with right mentor.</p>
+                <h1 class="mt-4 text-4xl font-bold text-white lg:mt-8 sm:text-6xl xl:text-8xl">Connect & learn from Quantafile</h1>
+                <p class="mt-4 text-base text-gray-300 lg:mt-8 sm:text-xl">Grow your career fast with right mentor.</p>
 
                 <a href="#" title="" class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-gray-100 transition-all duration-200 bg-blue-600 rounded-full lg:mt-16 hover:bg-blue-900 focus:bg-yellow-400" role="button">
                   Join for free
@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
 
               <div>
-                <img class="w-full" src="heroim.png" alt="" />
+                <img class="w-full" src="blackhero.png" alt="" />
               </div>
             </div>
           </div>
