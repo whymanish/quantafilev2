@@ -9,12 +9,14 @@ import BelowFeatures from './Components/BelowFeatures';
 import CTA from './Components/CTA';
 import Reviews from './Components/Reviews';
 import FTP from './Components/FTP';
+import VerticalCarousel from './Components/VerticalCarousel';
+
+
 const page = () => {
   return (
     <div>
       <Navbar/>
       <Hero/>
-      
       <FTP/>
       <BelowFeatures/>
     
@@ -22,7 +24,7 @@ const page = () => {
       <CTA/>
       <Reviews/>
      
-     
+    
       <Footer/>
     </div>
   )

@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  /* Add these styles to your CSS file */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
