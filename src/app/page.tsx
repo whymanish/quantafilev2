@@ -11,7 +11,6 @@ import Reviews from './Components/Reviews';
 import FTP from './Components/FTP';
 import VerticalCarousel from './Components/VerticalCarousel';
 
-
 const page = () => {
   return (
     <div>
@@ -19,7 +18,6 @@ const page = () => {
       <Hero/>
       <FTP/>
       <BelowFeatures/>
-    
       
       <CTA/>
       <Reviews/>
